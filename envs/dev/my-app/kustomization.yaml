@@ -1,0 +1,10 @@
+---
+namespace: my-app
+replicas:
+- name: my-app
+  count: 2
+images:
+- name: 286119371104.dkr.ecr.ap-south-1.amazonaws.com/vishnukrajan007/app-gitops-2026
+  newTag: v0.1.1
+resources:
+- ../../../my-app-base
