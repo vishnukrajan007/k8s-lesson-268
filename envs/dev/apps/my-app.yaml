@@ -13,9 +13,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:vishnukrajan007/Gitops-aws-infra.git
+    repoURL: git@github.com:vishnukrajan007/k8s-lesson-268.git
     targetRevision: HEAD
-    path: k8s-lesson-268/my-app-base
+    path: envs/dev/my-app
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
